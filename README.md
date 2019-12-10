@@ -1,2 +1,2 @@
 # JAVA
-2019-winter minsuku
+2019-winter ミンスク、ワークポートKorea
