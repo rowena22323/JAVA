@@ -85,3 +85,23 @@ public class ChangeValue1 {
 	}
 
 }
+
+
+package jp.co.fl.superintro.ch04exercise;
+
+public class Practice0401 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		int x = 9;
+		int y = 13;
+		
+		int z = x;
+		x=y;
+		y=z;
+		
+		System.out.println(x);
+		System.out.println(y);
+	}
+
+}
