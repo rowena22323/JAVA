@@ -1,15 +1,3 @@
-/*
-1．プログラミングの準備
-プログラマが書いたプログラムを機械語に訳してコンピューターに渡す役割を行う #コンパイラ
-プログラミング言語で書かれた作業指示書（プログラム）のこと #ソースコード
-プログラムを書く人のこと #プログラマ
-機械語に翻訳しやすく、かつ人間も理解しやすい中間言語。体表的にはJAVA, C, PHPなどがある。#プログラミング言語
-プログラムを書く作業のこと#プログラミング
-コンピューターに対して様々な命令をする作業指示書のようなもの #プログラム
-オブジェクト指向をサポートするプログラミング言語 #JAVA
-「0」と「1」という数字の羅列からできていて、人間が理解するには非常に難解でほぼ不可能で、コンピュータしか理解できない言語 #機械語
-*/
-
 
 public class HelloWorld {
 
@@ -20,3 +8,30 @@ System.out.print("Hello World");
 
 }
 
+package koo;
+import java.io.*;
+//この場所から行末までが全てコメントです。
+public class basicgrammar {
+/*この範囲内の記述が
+コメントです。
+複数行にまたがってもOKです。 */
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		System.out.println("初めてのプログラム");
+		System.out.println("ようこそJava");
+		System.out.println("頑張りましょう");
+
+	}
+
+}
+
+package jp.co.fl.superintro.ch03exercise;
+
+public class Practice0301 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		System.out.println("Hello World");
+	}
+
+}
