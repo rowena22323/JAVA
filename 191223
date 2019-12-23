@@ -104,3 +104,63 @@ public class NestedIfStatement1 {
 	}
 
 }
+
+package jp.co.f1.superintro.ch07;
+
+public class NoLoop {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		for (int i = 0; i<3; i++) {
+			System.out.println("LOOP!");
+		}
+	}
+
+}
+
+package jp.co.f1.superintro.ch07;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		//while文を制御するための変数iを宣言し、1で初期化
+		int i = 0;
+		
+		while(i<=4) {
+			System.out.println("While Loop!");
+			i++;
+		}
+	}
+
+}
+
+package jp.co.f1.superintro.ch07;
+import java.util.Scanner;
+public class BreakStatement {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		
+		//count variable
+		int count = 0;
+		
+		System.out.println("**Start Loop**");
+		while(true) {
+			System.out.print("if you want to continue loop, press y");
+			String result = sc.nextLine();
+			
+			if(result.equals("y")) {
+				count++;
+				System.out.println(count+"times of loop");
+				System.out.println();
+				}else {
+					System.out.println("error");
+					break;
+				}
+		}
+		System.out.println("Ends of Loop");
+	}
+
+}
