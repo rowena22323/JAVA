@@ -15,12 +15,7 @@ public class IFstatement {
 		}
 		System.out.println("--if文終了--");
 		
-	}
-
-}
-package jp.co.f1.superintro.ch06;
-
-import java.util.Scanner;
+		import java.util.Scanner;
 
 public class ifelse {
 
@@ -36,13 +31,9 @@ public class ifelse {
 			}else {
 				System.out.println("「"+str+"｣is not same with memorized letter");
 			}
-	}
+			}
 
-}
-package jp.co.f1.superintro.ch06;
-
-public class EqualsMethod {
-
+		}
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		//比較用の文字列を管理する変数の宣言と初期化
@@ -53,11 +44,7 @@ public class EqualsMethod {
 			System.out.println("String型の変数strと文字列\"テスト\"とは意味的に等しい");
 		}
 		System.out.println("--if文終了--");
-	}
-
-}
-
-package jp.co.f1.superintro.ch06;
+		
 import java.util.Scanner;
 public class IfElseIfStatement {
 
@@ -77,12 +64,6 @@ public class IfElseIfStatement {
 			System.out.println(num1+"and"+num2+"are same number");
 		}
 		
-	}
-
-}
-
-package jp.co.f1.superintro.ch06;
-
 public class NestedIfStatement1 {
 
 	public static void main(String[] args) {
@@ -101,25 +82,14 @@ public class NestedIfStatement1 {
 			}
 		}
 		System.out.println("****if文の判定終了****");
-	}
-
-}
-
-package jp.co.f1.superintro.ch07;
-
+		
 public class NoLoop {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		for (int i = 0; i<3; i++) {
 			System.out.println("LOOP!");
-		}
-	}
-
-}
-
-package jp.co.f1.superintro.ch07;
-
+			
 public class WhileLoop {
 
 	public static void main(String[] args) {
@@ -131,11 +101,7 @@ public class WhileLoop {
 			System.out.println("While Loop!");
 			i++;
 		}
-	}
-
-}
-
-package jp.co.f1.superintro.ch07;
+		
 import java.util.Scanner;
 public class BreakStatement {
 
