@@ -36,15 +36,7 @@ public class arithmeticoperator {
 		answer = a%b;
 		System.out.print("a%b :");
 		System.out.println(answer);
-	}
-}
-
-package jp.co.f1.superintro.ch05;
-
-public class IncrementDecrement {
-
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		
 		//インクリメント用の値を管理する変数の初期化
 		int num = 9;
 		
@@ -77,18 +69,6 @@ public class IncrementDecrement {
 		System.out.println(num--);
 		System.out.println(num);
 		
-	}
-
-}
-
-package jp.co.f1.superintro.ch05;
-
-import java.util.Scanner;
-
-public class keyboardStringvalue {
-
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 		Scanner sc = new Scanner(System.in);
 		System.out.print("名前を入力してください＞");
 		String name = sc.nextLine();
@@ -101,16 +81,7 @@ public class keyboardStringvalue {
 		int num2 = dc.nextInt();
 		
 		System.out.println(num1+"+"+num2+"="+(num1+num2));
-	}
-
-}
-
-package jp.co.f1.superintro.ch05;
-
-public class Plusoperator {
-
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		
 		int i = 3;
 		int j = 1;
 		
@@ -125,16 +96,7 @@ public class Plusoperator {
 		//四則演算の優先順位ルールによる文字列連結計算の順序を確認
 		System.out.println("i+j="+i+j);
 		System.out.println("i+j="+(i+j));
-	}
-
-}
-
-package jp.co.f1.superintro.ch05;
-
-public class PriorityCheck {
-
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		
 		//計算の値を管用理する変数を宣言し、値を代入
 		int a = 9;
 		int b = 1;
@@ -151,5 +113,4 @@ public class PriorityCheck {
 		System.out.print("(a+b)*c= :");
 		System.out.println(answer);
 	}
-
 }
