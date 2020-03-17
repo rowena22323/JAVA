@@ -4,16 +4,16 @@ public class control1 {
 
 	public static void main(String[] args) {
 		int x=0;
-		System.out.printf("x=%dÀÏ¶§ ÂüÀÎ °ÍÀº%n", x);
+		System.out.printf("x=%dì¼ë•Œ ì°¸ì¸ ê²ƒì€%n", x);
 		
-		/* Á¶°Ç½ÄÀÇ °á°ú´Â ¹İµå½Ã T/F! */
+		/* ì¡°ê±´ì‹ì˜ ê²°ê³¼ëŠ” ë°˜ë“œì‹œ T/F! */
 		if (x==0) System.out.println("x==0");
 		if (x!=0) System.out.println("x!=0");
 		if (!(x==0)) System.out.println("!(x==0)");
 		if (!(x!=0)) System.out.println("!(x!=0)");
 		
 		x=1;
-		System.out.printf("x=%dÀÏ¶§ ÂüÀÎ °ÍÀº%n", x);
+		System.out.printf("x=%dì¼ë•Œ ì°¸ì¸ ê²ƒì€%n", x);
 		if (x==0) System.out.println("x==0");
 		if (x!=0) System.out.println("x!=0");
 		if (!(x==0)) System.out.println("!(x==0)");
