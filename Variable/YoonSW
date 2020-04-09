@@ -1,0 +1,102 @@
+class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello, world Java");
+	}
+
+}
+
+class UseVariable {
+
+	public static void main(String[] args) {
+		
+		int num1 = 10;
+		int num2 = 20;
+		int num3 = num1+num2;
+		
+		System.out.println(num1+"+"+num2+"="+num3);
+
+	}
+
+}
+
+class literalTest {
+
+	public static void main(String[] args) {
+		int num = 10;
+		char letter = '헐';
+		boolean flag = true;
+		String mxg = "Hello, Java";
+		double d =223.33;
+		System.out.println(num);
+		System.out.println(letter);
+		System.out.println(flag);
+		System.out.println(mxg);
+		System.out.println(d);
+
+	}
+
+}
+
+class escapeSequence {
+	public static void main(String[]args) {
+		String msg2 = "Hello my name is kate";
+		System.out.println(msg2);
+		
+		String msg3 = "Hello my name is \n kate";
+		System.out.println(msg3);
+		
+	    System.out.println("AB"+'\b'+'C');
+	    System.out.println("AB"+'\t'+'C');
+	    System.out.println("AB"+'\n'+'C');
+	    System.out.println("AB"+'\r'+'C');
+	}
+
+}
+
+class CharTypeUnicode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char ch3 = 54736;
+		char ch6 = 0xD5D0;
+		
+		char ch1 = 0x3071;
+		char ch2 = 0xD653;
+		
+		System.out.println(ch3+""+ch6);
+		System.out.println(ch1+""+ch2);
+	}
+
+}
+
+class typeEx {
+
+	public static void main(String[] args) {
+		short s = Short.MAX_VALUE;
+		System.out.println(s);
+		
+		long l = Long.MAX_VALUE;
+		System.out.println(l);
+		
+		long ll= s; //작은타입을 큰 타입에 넣었으니 자동 형변환 된 것
+		System.out.println(ll);
+		
+		/* 작은컵에 흘러넘치는 큰컵의 물
+		short ss=l; //Type mismatch: cannot convert from long to short
+		System.out.println(ss); */
+		
+		short s2 = (short)l; //short형으로 explicit conversion (casting)함
+		//short s2 = ll; 출력안됨
+		System.out.println(s2);
+		
+    String s3 ="1234";
+		int num = Integer.parseInt(s3); 
+		System.out.println(num); //type error에는 주의하자규!
+		 // reference type은 나중에
+		
+
+	}
+
+}
