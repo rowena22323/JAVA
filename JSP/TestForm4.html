@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>회원가입</title>
+	<script src="jquery-3.5.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("button").click(function(){
+				if($("#userId").val() == ""){
+					alert("아이디를 입력해 주세요");
+					$("#userId").focus();
+					return false;
+				}
+				if($("#userPwd").val()==""){
+					alert("암호를 입력해 주세요");
+					$("#userPwd").focus();
+					return false;
+				}
+				if($("#userPwdConfirm").val()==""){
+					alert("암호확인을 입력해 주세요");
+					$("#userPwdConfirm").focus();
+					return false;
+				}
+				
+				// var userPwd =("#userPwd").val();
+				// var userPwdConfirm = ("#userPwdConfirm").val();
+				// if(userPwd != userPwdConfirm){
+				if($("#userPwd").val()!=$("#userPwdConfirm").val()){
+					alert("암호를 다시 확인해 주십시오");
+					$("#userPwd").focus();
+					return false;//다음순서로 넘어가지 마시오!
+				}
+				/*http://localhost/JspWb/TestForm3Process.jsp?userId=test&
+				 *userPwd=1234&userPwdConfirm=1234 return true 일경우 넘어가는 get형식*/
+				return false;//페이지가 다음으로 넘어가지 말라고.
+			});
+		});
+	</script>
+</head>
+<body>
+	<form name="myForm" action="TestForm3Process.jsp" method="get">
+		아이디 : <input type="text" name="userId" id="userId"><br>
+		암호 : <input type="password" name="userPwd" id="userPwd"><br>
+		암호확인 : <input type="password" name="userPwdConfirm" id="userPwdConfirm"><br>
+		남녀구분 : 남<input type="radio" name="gender" value="male"> 
+		         여<input type="radio" name="gender" value="female"><br>
+		취미: 농구<input type="checkbox" name="hobby" value="basketball"> 
+		     야구<input type="checkbox" name="hobby" value="baseball">
+		     탁구<input type="checkbox" name="hobby" value="pingpong"><br>
+		<button>가입</button>&nbsp;
+		<input type="reset" value="초기화">
+	</form>
+</body>
+</html>
